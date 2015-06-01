@@ -1,5 +1,5 @@
 <div class="container-fluid">
-  <div class="text-center">
+  <div id="header" class="section text-center">
     <h1>Hi, I'm Thomas.</h1>
     <h2 class="lead">This is my website.
   </div>
@@ -8,15 +8,15 @@
     <h2>About Me</h2>
     <div class="blurb features">
       <p>
-        </span class="glyphicon glyphicon-home">
+        <span class="glyphicon glyphicon-home"></span>
         I hail from New York City.
       </p>
       <p>
-        </span class="glyphicon glyphicon-education">
+        <span class="glyphicon glyphicon-education"></span>
         I attended Yale University, where I received a B.S. in Computer Science and a B.A. in Economics.
       </p>
       <p>
-        </span class="glyphicon glyphicon-briefcase">
+        <span class="glyphicon glyphicon-briefcase"></span>
         I will start working as a Software Development Engineer at Microsoft in the fall.
       </p>
     </div>
