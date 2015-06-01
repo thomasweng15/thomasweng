@@ -18,6 +18,8 @@
   },
   "homepage": "https://github.com/thomasweng15/thomasweng",
   "dependencies": {
-    "express": "^4.12.4"
+    "ejs": "^2.3.1",
+    "express": "^4.12.4",
+    "express-partials": "^0.3.0"
   }
 }
