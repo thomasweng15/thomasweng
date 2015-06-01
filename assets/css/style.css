@@ -1,7 +1,50 @@
+.blurb {
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .section {
   padding-top: 70px;
 }
 
 .section h2 {
   text-align: center;
+}
+
+.features .glyphicon {
+  font-size: 28px;
+  margin-right: 12px;
+}
+
+#about .container {
+  background-color: grey;
+}
+
+#experience .research {
+  padding-left: 0px;
+  padding-right: 5px;
+}
+
+#experience .work {
+  padding-left: 2.5px;
+  padding-right: 2.5px;
+}
+
+#experience .projects {
+  padding-left: 5px;
+  padding-right: 0px;
+}
+
+.exp {
+  background-color: grey;
+  border-style: solid;
+  text-align: center;
+}
+
+footer {
+  background: #2b2b2b;
+  color: grey;
+  padding-top: 10px;
+  margin-top: 50px;
 }

@@ -6,7 +6,7 @@
 
   <div id="about" class="section">
     <h2>About Me</h2>
-    <div class="blurb features">
+    <div class="blurb features container">
       <p>
         <span class="glyphicon glyphicon-home"></span>
         I hail from New York City.
@@ -24,25 +24,31 @@
 
   <div id="experience" class="section">
     <h2>Experience</h2>
-    <div class="blurb row">
-      <div class="col-md-4">
-        <h3>Research</h3>
-        <p>Research experience with the Yale Social Robotics Lab</p>
+    <div class="blurb row container">
+      <div class="col-md-4 research">
+        <div class="exp">
+          <h3>Research</h3>
+          <p>Research experience with the Yale Social Robotics Lab</p>
+        </div>
       </div>
-      <div class="col-md-4">
-        <h3>Work</h3>
-        <p>Work experience</p>
+      <div class="col-md-4 work">
+        <div class="exp">
+          <h3>Work</h3>
+          <p>Work experience</p>
+        </div>
       </div>
-      <div class="col-md-4">
-        <h3>Projects</h3>
-        <p>Personal Projects</p>
+      <div class="col-md-4 projects">
+        <div class="exp">
+          <h3>Projects</h3>
+          <p>Personal Projects</p>
+        </div>
       </div>
     </div>
   </div>
 
   <div id="extra" class="section">
     <h2>Extra</h2>
-    <div class="blurb">
+    <div class="blurb container">
       <h3>Blog</h3>
       <p>Check out my blog.</p>
     </div>

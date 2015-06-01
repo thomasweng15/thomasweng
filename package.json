@@ -1,0 +1,23 @@
+{
+  "name": "thomasweng",
+  "version": "1.0.0",
+  "description": "personal website",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/thomasweng15/thomasweng.git"
+  },
+  "author": "Thomas Weng",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/thomasweng15/thomasweng/issues"
+  },
+  "homepage": "https://github.com/thomasweng15/thomasweng",
+  "dependencies": {
+    "express": "^4.12.4"
+  }
+}
