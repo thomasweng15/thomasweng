@@ -1,32 +1,15 @@
 <!DOCTYPE HTML>
 <html>
   <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
     <title>Thomas Weng</title>
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="fonts/icomoon/icomoon.css">
   </head>
   <body>
-    <div class="navbar navbar-default navbar-fixed-top">
-      <div class="container">
-        <a href="#header" class="navbar-brand">Thomas Weng</a>
-        <ul class="nav navbar-nav navbar-right">
-          <li><a href="#about">About</a></li>
-          <li><a href="#experience">Experience</a></li>
-          <li><a href="#extra">Extra</a></li>
-        </ul>
-      </div>
-    </div>
-
-    <div id="content">
-      <%- body %>
-    </div>
-
-    <footer class="container-fluid text-center">
-      <p>Made by Thomas in 2015</p>
-      <p><span class="glyphicon glyphicon-envelope"></span></p>
-      <p><span class="icon icon-github"></span></p>
-      <p><span class="icon icon-linkedin"></span></p>
-    </footer>
+    <%- partial('navbar') %>
+    <%- body %>
+    <%- partial('footer') %>
   </body>
 </html>
