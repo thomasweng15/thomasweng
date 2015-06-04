@@ -1,18 +1,49 @@
-html,body{ margin:0; padding:0; height:100%; width:100%; }
+html, body {
+  margin:0;
+  padding:0;
+  height:100%;
+  width:100%;
+  font-family: "Raleway";
+}
+
+.navbar {
+  background: #2b2b2b;
+  margin-bottom: 0px;
+  border-bottom: 0px;
+}
 
 #header {
   background: url('../img/mountains.jpg') center top no-repeat;
   background-size: 100% auto;
+  max-height: 720px;
   text-align: center;
   color: white;
   height: 100%;
   width: 100%;
-  overflow: hidden;
+  font-family: "Lato";
 }
 
 #header-text {
   position: relative;
   top: 40%;
+}
+
+#header-text h1 {
+  font-size: 72px;
+}
+
+#name {
+  color: #40a3ff;
+}
+
+#down-arrow {
+  height: 34px;
+  width: 34px;
+  display: block;
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  margin-left:-15px;
 }
 
 #profile-pic {
@@ -32,8 +63,22 @@ html,body{ margin:0; padding:0; height:100%; width:100%; }
   font-style: italic;
 }
 
-#research-demo {
-  width: 375px;
+#contact-info {
+  text-align: left;
+  width: 20%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#contact-info span {
+  font-size: 24px;
+  margin-right: 10px;
+}
+
+#skills {
+  text-align: center;
+  background-color: lightgrey;
+  min-height: 100px;
 }
 
 #hr {
@@ -43,6 +88,7 @@ html,body{ margin:0; padding:0; height:100%; width:100%; }
 .section {
   padding-top: 50px;
   text-align: center;
+  margin-bottom: 50px;
 }
 
 .section hr {
@@ -60,34 +106,36 @@ html,body{ margin:0; padding:0; height:100%; width:100%; }
 }
 
 #divider2 {
-  background: url('../img/seattle2.jpg') center no-repeat;
-  background-size: 100% auto;
-}
-
-#divider3 {
-  background: url('../img/seattle1.jpg') center no-repeat;
+  background: url('../img/seattle.jpg') center no-repeat;
   background-size: 100% auto;
 }
 
 .divider {
   text-align: center;
   color: white;
-  min-height: 375px;
+  height: 375px;
 }
 
 .divider-text {
+  font-family: "Lato";
   position: relative;
-  top: 150px;
+  top: 125px;
+}
+
+.divider-text h1 {
+  font-size: 52px;
+}
+
+.divider-text span {
+  font-size: 64px;
+}
+
+h1, h2, h3, h4 {
+  font-weight: 300;
 }
 
 p {
   font-size: 16px;
-}
-
-.navbar {
-  background: #2b2b2b;
-  margin-bottom: 0px;
-  border-bottom: 0px;
 }
 
 footer {
@@ -95,11 +143,4 @@ footer {
   color: grey;
   padding-top: 10px;
   text-align: center;
-}
-
-footer span {
-  font-size: 24px;
-  margin-left: 5px;
-  margin-right: 5px;
-  padding-bottom: 7px;
 }
