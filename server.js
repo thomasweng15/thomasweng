@@ -19,6 +19,6 @@ app.get('/', function (req, res, next) {
 });
 
 var port = 3000;
-app.listen(port, function() {
+app.listen(process.env.PORT || port, function() {
 	console.log('server listening on port ' + port);
 });
