@@ -73,6 +73,11 @@ html, body {
   margin-right: auto;
 }
 
+#research-video {
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
+
 #contact-info {
   text-align: left;
   width: 20%;
