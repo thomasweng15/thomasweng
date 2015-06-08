@@ -41,7 +41,7 @@ html, body {
   width: 34px;
   display: block;
   position: absolute;
-  bottom: 10px;
+  bottom: 15px;
   left: 50%;
   margin-left:-15px;
 }
@@ -54,13 +54,23 @@ html, body {
 }
 
 #about p {
-  width: 50%;
+  width: 45%;
   margin-left: auto;
   margin-right: auto;
 }
 
 #work h4 {
   font-style: italic;
+}
+
+#resume {
+  text-align: center;
+}
+
+#research {
+  width: 45%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 #contact-info {
@@ -79,6 +89,19 @@ html, body {
   text-align: center;
   background-color: lightgrey;
   min-height: 100px;
+  overflow: hidden;
+  padding-top: 15px;
+  position: relative;
+}
+
+#skills-arrow {
+  height: 34px;
+  width: 34px;
+  display: block;
+  position: absolute;
+  bottom: 15px;
+  left: 50%;
+  margin-left:-15px;
 }
 
 #hr {
@@ -100,14 +123,15 @@ html, body {
 }
 
 #divider1 {
-  background: url('../img/yale2.jpg') center no-repeat;
-  background-position: 100% 15%;
+  background: url('../img/yale2.jpg') top no-repeat;
+  background-position: 100% 33%;
   background-size: 100% auto;
 }
 
 #divider2 {
   background: url('../img/seattle.jpg') center no-repeat;
   background-size: 100% auto;
+  overflow: hidden;
 }
 
 .divider {
@@ -127,7 +151,7 @@ html, body {
 }
 
 .divider-text span {
-  font-size: 64px;
+  font-size: 72px;
 }
 
 h1, h2, h3, h4 {
