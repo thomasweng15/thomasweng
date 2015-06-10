@@ -59,23 +59,24 @@ html, body {
   margin-right: auto;
 }
 
-#work h4 {
-  font-style: italic;
+#work {
+  margin-bottom: 20px;
 }
 
 #resume {
-  text-align: center;
+  padding-top: 25px;
 }
 
 #research {
   width: 45%;
   margin-left: auto;
   margin-right: auto;
+  margin-bottom: 20px;
 }
 
 #research-video {
   margin-top: 5px;
-  margin-bottom: 10px;
+  margin-bottom: 15px;
 }
 
 #contact-info {
@@ -88,25 +89,6 @@ html, body {
 #contact-info span {
   font-size: 24px;
   margin-right: 10px;
-}
-
-#skills {
-  text-align: center;
-  background-color: lightgrey;
-  min-height: 100px;
-  overflow: hidden;
-  padding-top: 15px;
-  position: relative;
-}
-
-#skills-arrow {
-  height: 34px;
-  width: 34px;
-  display: block;
-  position: absolute;
-  bottom: 15px;
-  left: 50%;
-  margin-left:-15px;
 }
 
 #hr {
@@ -151,12 +133,16 @@ html, body {
   top: 125px;
 }
 
+.divider-text span {
+  font-size: 72px;
+}
+
 .divider-text h1 {
   font-size: 52px;
 }
 
-.divider-text span {
-  font-size: 72px;
+.divider-text p{
+  letter-spacing: 0.05em;
 }
 
 h1, h2, h3, h4 {
