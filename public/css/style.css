@@ -6,14 +6,29 @@ html, body {
   font-family: "Raleway";
 }
 
-.navbar-header button {
-  border: none;
-}
-
 .navbar {
   background: #2b2b2b;
   margin-bottom: 0px;
   border-bottom: 0px;
+  font-weight: 300;
+}
+
+.navbar-default .navbar-header a,
+.navbar-default .nav li a {
+  color: lightgrey;
+}
+
+/*.navbar-default .navbar-header a:hover,
+.navbar-default .navbar-header a:focus,*/
+.navbar-default .nav li a:hover,
+.navbar-default .nav li a:focus,
+.navbar-default .navbar-header a:hover {
+  background-color: #40a3ff;
+  color: white;
+}
+
+.navbar-header button {
+  border: none;
 }
 
 .navbar-nav {
@@ -22,18 +37,19 @@ html, body {
 
 #header {
   background: url('../img/mountains.jpg') center top no-repeat;
-  background-size: 100% auto;
+  background-size: cover;
   max-height: 720px;
   text-align: center;
-  color: white;
   height: 100%;
   width: 100%;
-  font-family: "Lato";
+
 }
 
 #header-text {
   position: relative;
   top: 40%;
+  color: white;
+  font-family: "Lato";
 }
 
 #header-text h1 {
@@ -120,12 +136,12 @@ html, body {
 #divider1 {
   background: url('../img/grad.jpg') top no-repeat;
   background-position: 100% 33%;
-  background-size: 100% auto;
+  background-size: cover;
 }
 
 #divider2 {
   background: url('../img/seattle.jpg') center no-repeat;
-  background-size: 100% auto;
+  background-size: cover;
   overflow: hidden;
 }
 
@@ -163,7 +179,7 @@ p {
 
 footer {
   background: #2b2b2b;
-  color: grey;
+  color: white;
   padding-top: 10px;
   text-align: center;
 }
