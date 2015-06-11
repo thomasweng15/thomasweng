@@ -22,6 +22,7 @@
     "express": "^4.12.4",
     "express-partials": "^0.3.0",
     "serve-favicon": "^2.2.1",
+    "smooth-scroll": "git://github.com/cferdinandi/smooth-scroll",
     "twitter-bootstrap": "^2.1.1"
   }
 }
