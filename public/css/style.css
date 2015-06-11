@@ -179,7 +179,13 @@ p {
 
 footer {
   background: #2b2b2b;
-  color: white;
+  color: lightgrey;
   padding-top: 10px;
   text-align: center;
+}
+
+#x {
+  float: right;
+  font-size: 22px;
+  color: black;
 }

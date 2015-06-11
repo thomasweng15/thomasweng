@@ -18,6 +18,10 @@ app.get('/', function (req, res, next) {
 	res.render('index');
 });
 
+app.get('/secret', function (req, res, next) {
+	res.render('extra', { layout: false });
+});
+
 var port = 3000;
 app.listen(process.env.PORT || port, function() {
 	console.log('server listening on port ' + port);
