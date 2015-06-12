@@ -69,8 +69,8 @@ html, body {
 }
 
 #profile-pic {
-  height: 18%;
-  width: 32%;
+  height: 225px;
+  width: 400.7px;
   display: block;
   margin: auto;
 }
@@ -103,13 +103,16 @@ html, body {
 #research-video {
   margin-top: 5px;
   margin-bottom: 15px;
+  height: 315px;
+  width: 100%;
 }
 
 #contact-info {
   text-align: left;
-  width: 20%;
-  margin-left: auto;
-  margin-right: auto;
+  justify-content: left;
+  position: relative;
+  left: 50%;
+  margin-left: -115px;
 }
 
 #contact-info span {
@@ -191,4 +194,31 @@ footer {
   float: right;
   font-size: 22px;
   color: black;
+}
+
+@media screen and (max-width:769px) {
+  #profile-pic {
+    height: 200px;
+    width: 356.178px;
+    display: block;
+    margin: auto;
+  }
+
+  #about p {
+    width: 90%;
+  }
+
+  #research {
+    width: 90%;
+  }
+
+  #divider2 .divider-text {
+    top: 90px;
+
+  }
+
+  #divider2 .divider-text h1 {
+    font-size: 48px;
+  }
+
 }
