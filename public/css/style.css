@@ -1,6 +1,5 @@
 html, body {
   height: 100%;
-  /*overflow: hidden;*/
 }
 
 body {
@@ -83,7 +82,10 @@ body {
 }
 
 #work {
+  width: 90%;
   margin-bottom: 20px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 #resume {
@@ -208,9 +210,17 @@ footer {
     line-height: 1.4;
   }
 
+  #header-text {
+    top: 30%;
+  }
+
+  #header-text h2 {
+    font-size: 24px;
+  }
+
   #profile-pic {
-    height: 200px;
-    width: 356.178px;
+    height: 150px;
+    width: 267.13px;
     display: block;
     margin: auto;
   }
@@ -224,7 +234,7 @@ footer {
   }
 
   #divider2 .divider-text {
-    top: 90px;
+    top: 40px;
   }
 
   #divider2 .divider-text h1 {
