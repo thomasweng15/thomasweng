@@ -59,16 +59,6 @@ html, body {
   color: #40a3ff;
 }
 
-#down-arrow {
-  height: 50px;
-  width: 50px;
-  display: block;
-  position: absolute;
-  bottom: 20px;
-  left: 50%;
-  margin-left:-30px;
-}
-
 #profile-pic {
   height: 225px;
   width: 400.7px;
@@ -215,11 +205,9 @@ footer {
 
   #divider2 .divider-text {
     top: 90px;
-
   }
 
   #divider2 .divider-text h1 {
     font-size: 48px;
   }
-
 }
