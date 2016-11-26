@@ -153,12 +153,15 @@ body {
   text-align: center;
   color: white;
   height: 375px;
+  display: table;
+  width: 100%;
 }
 
 .divider-text {
   font-family: "Lato";
   position: relative;
-  top: 125px;
+  display: table-cell;
+  vertical-align: middle;
 }
 
 .divider-text span {
